@@ -1407,6 +1407,12 @@ button:focus {
   z-index: 4;
   overflow: hidden;
   transition: all 500ms ease;
+  background-image: url("https://cdn2.iconfinder.com/data/icons/people-wearing-glasses-1/243/people-wearing-glasses-008-512.png");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position-x: center;
+  background-position-y: center ;
+}
 }
 .experience-number {
   font-size: 60px;
@@ -1425,6 +1431,8 @@ button:focus {
   font-weight: 500;
   line-height: 2;
   color: #19203f;
+  
+}
 }
 .experience-icon {
   margin-bottom: 20px;
@@ -1541,6 +1549,7 @@ button:focus {
   -moz-border-radius-topright: 15px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
+  height: 250px;
 }
 .service-block-content {
   padding: 50px;
@@ -4036,4 +4045,7 @@ font-weight: 800;
 .page-loader {
   background-position: 50% 50%;
   background-repeat: no-repeat;
+}
+.molly{
+  color: white;
 }
