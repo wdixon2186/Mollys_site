@@ -2081,6 +2081,7 @@ button:focus {
 .content-lg {
   font-size: 18px;
   line-height: 2;
+  align-content: center;
 }
 .certificate-block {
   background-color: #fee026;
@@ -4050,7 +4051,7 @@ font-weight: 800;
   color: white;
 }
 .molly_icon{
-  height: 75px;
+  height: 90px;
 }
 
 /* .img-fluid{
@@ -4064,4 +4065,35 @@ font-weight: 800;
 
 #contact-page{
   color: black;
+}
+
+#About-Moll{
+  margin-top: 1%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: purple;
+  border-radius: 10%;
+  width:75%;
+  margin-bottom: 1%;
+  color: white;
+}
+.inside{
+  padding:1%;
+  width:85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about-header{
+  text-align: center;
+  color: white;
+}
+#Education{
+  background-color:lightgrey;
+  /* border-width: 1px;
+  border-color: black;
+  border-style: solid; */
+  border-radius: 15%;
+  width:75%;
+  padding: 1%;
+  color: white;
 }
