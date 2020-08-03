@@ -1164,7 +1164,7 @@ ul.gva-my-account-menu>li>a:focus:after {
 .slider-heading {
   font-size: 90px;
   font-weight: 800;
-  color: grey;
+  color: white;
   letter-spacing: -0.32px;
   line-height: 1.1;
   margin: 15px auto 35px auto;
@@ -1563,6 +1563,21 @@ button:focus {
   -moz-border-radius-bottomleft: 15px;
   border-bottom-right-radius: 15px;
   border-bottom-left-radius: 15px;
+  height:1100px;
+}
+.service-block-content-main {
+  padding: 50px;
+  background: #fff;
+  border-right: 1px solid #e4e8ee;
+  border-left: 1px solid #e4e8ee;
+  border-bottom: 1px solid #e4e8ee;
+  -webkit-border-bottom-right-radius: 15px;
+  -webkit-border-bottom-left-radius: 15px;
+  -moz-border-radius-bottomright: 15px;
+  -moz-border-radius-bottomleft: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  height:400px;
 }
 .service-block-icon {
   font-size: 65px;
@@ -1783,6 +1798,9 @@ button:focus {
 }
 .background-cover {
   background-size: cover;
+  background-position-x: center;
+  background-position-y: top;
+  /* background-repeat: no-repeat; */
 }
 .video-popup a {
   height: 95px;
