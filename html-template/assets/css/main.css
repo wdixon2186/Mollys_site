@@ -1116,6 +1116,7 @@ ul.gva-my-account-menu>li>a:focus:after {
 .header-logo {
   position: relative;
   padding-right: 40px;
+  
 }
 .header-logo::after {
   content: '';
@@ -4106,12 +4107,71 @@ font-weight: 800;
   color: white;
 }
 #Education{
-  background-color:lightgrey;
+  background-color:purple;
   /* border-width: 1px;
   border-color: black;
   border-style: solid; */
-  border-radius: 15%;
+  border-radius: 10%;
   width:75%;
   padding: 1%;
   color: white;
+}
+#about-us{
+  background-position-x: top;
+  background-position-y: top;
+  background-repeat: no-repeat;
+}
+#best-hands{
+  height: 500px
+}
+#meet-the-doc{
+  text-align: center;
+}
+#about-color{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.test123{
+  /* border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5%; */
+}
+.photo-side{
+  /* border-color: black;
+  border-style: solid;
+  border-width: 3px; */
+  width:45%;
+  height: 1px;
+}
+.words-side{
+  /* border-color: black;
+  border-style: solid;
+  border-width: 3px; */
+  width:45%;
+  margin-left: auto;
+  justify-content: right;
+}
+.molly-smiles{
+  height: 400px;
+  width: 100%;
+  padding-top: 12%;
+}
+.Education{
+  /* border-color: black;
+  border-style: solid;
+  border-width: 3px; */
+  width:50%;
+  margin-left: 5%;
+  border-radius: 15%;
+  color: black;
+}
+#polly{
+  
+  margin-left: 5%;
+   /* border-color: black;
+  border-style: solid;
+  border-width: 3px; */
 }
