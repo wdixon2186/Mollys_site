@@ -26,6 +26,54 @@ Used fonts-
 font-family: 'Poppins', sans-serif;
 */
 /* 1. Basic styles  */
+@media only screen and (max-width: 600px) {
+  #boobies{
+    padding-bottom: 1550px;
+  }
+  #kim{
+ /* border-style: solid;
+ border-color: black;
+ border-width: 1px;
+ padding-bottom: 2000px;
+width: 590px; */
+display: none;
+  }
+  #paula{
+    /* padding-top: 2000px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    width: 50px; */
+    display: none;
+  }
+  #dunbar{
+    /* border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    float: right;
+    padding-bottom: 500px; */
+    display: none;
+    
+  }
+  .mobiletry{
+    display: block;
+  }
+  #ev{
+    display: block;
+  }
+  #wes{
+    display: block;
+height: 300px;
+width: 400px;
+background-image: url("https://scontent.fapa1-1.fna.fbcdn.net/v/t1.0-9/11150417_10205355816589819_3241281142113852222_n.jpg?_nc_cat=108&_nc_sid=cdbe9c&_nc_ohc=Yl14ZjhhqVgAX8G5Kcp&_nc_oc=AQmTTHbsEZTzPo_nhbhg7o7ipJ4crlMe1jLydKzHWjx-rfMDrhXr79Ett-XwPmmJDF2GCIkpa2ypVSsNPQP4_NJl&_nc_ht=scontent.fapa1-1.fna&oh=ae514942fc1e7fa1b8f1a070ec6beaeb&oe=5F51506D");
+background-size: contain;
+background-repeat: no-repeat;
+  }
+  #derrick{
+    display: block;
+    
+  }
+}
 html {
   color: #717483;
   font-size: 1em;
@@ -4156,8 +4204,8 @@ font-weight: 800;
 }
 .molly-smiles{
   height: 400px;
-  width: 100%;
-  padding-top: 12%;
+  width: 90%;
+  padding-top: 8%;
 }
 .Education{
   /* border-color: black;
@@ -4174,4 +4222,29 @@ font-weight: 800;
    /* border-color: black;
   border-style: solid;
   border-width: 3px; */
+}
+#boobies{
+  width: 100%;
+  height: 800px;
+}
+#kim{
+  width: 50%;
+  height: 700px;
+  float: right;
+}
+#paula{
+  width: 50%;
+  height: 400px;
+}
+#dunbar{
+  width: 45%;
+  height: 300px;
+  text-align: center;
+  
+}
+.ed{
+  text-align: center;
+}
+.mobiletry{
+  display: none;
 }
