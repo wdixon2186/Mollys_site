@@ -4248,3 +4248,18 @@ font-weight: 800;
 .mobiletry{
   display: none;
 }
+
+.pricing-service{
+  font-weight: bold;
+  color:red;
+}
+#pricing-boi{
+  text-align: center;
+}
+#prices-boi{
+  border-color: grey;
+  border-style: solid;
+  border-width: 1px; 
+  width: 100%;
+  border-radius: 10%;
+}
