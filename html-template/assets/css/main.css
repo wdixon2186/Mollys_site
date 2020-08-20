@@ -1612,7 +1612,7 @@ button:focus {
   -moz-border-radius-bottomleft: 15px;
   border-bottom-right-radius: 15px;
   border-bottom-left-radius: 15px;
-  height:1100px;
+  height:950px;
 }
 .service-block-content-main {
   padding: 50px;
@@ -4262,4 +4262,9 @@ font-weight: 800;
   border-width: 1px; 
   width: 100%;
   border-radius: 10%;
+}
+
+#last-img{
+  width: 400px;
+  height: 400px;
 }
